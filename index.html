@@ -5,90 +5,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Coach for Change</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: white;
-            color: #000;
-        }
-        header {
-            background-color: #005baa;
-            color: white;
-            padding: 20px;
-            position: sticky;
-            top: 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        nav a {
-            color: white;
-            margin-left: 20px;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        .content {
-            padding: 20px;
-        }
-        .buttons {
-            margin: 20px 0;
-        }
-        .buttons a {
-            padding: 10px 20px;
-            background-color: #005baa;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-        footer {
-            background-color: #005baa;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="logo"><strong>Coach for Change</strong></div>
+    <header class="header">
+        <img src="logo.png" alt="Coach for Change Logo" class="logo" />
         <nav>
-            <a href="#about">About</a>
+            <a href="#about">About Us</a>
+            <a href="mailto:coachforc@gmail.com" class="cta-button">Join Us</a>
+            <a href="https://www.paypal.com/paypalme/sibuleleroji" class="cta-button">Donate</a>
         </nav>
     </header>
 
-    <div class="content">
-        <section class="intro">
-            <h1>Welcome to Coach for Change</h1>
-            <p>We empower youth through mentorship, sport, and community involvement.</p>
+    <main>
+        <section id="mission">
+            <h1>Our Mission</h1>
+            <p>Empowering young people through mentorship and sports.</p>
         </section>
 
-        <div class="buttons">
-            <a href="mailto:sibulele.roji@gmail.com">Join Us</a>
-            <a href="https://www.paypal.com/paypalme/sibuleroji" target="_blank">Donate</a>
-        </div>
+        <section id="vision">
+            <h1>Our Vision</h1>
+            <p>To build a generation of leaders through community-based coaching programs.</p>
+        </section>
 
         <section id="about">
-            <h2>Mission</h2>
-            <p>To provide mentorship and father figures through sports for young people in underserved communities.</p>
-            
-            <h2>Vision</h2>
-            <p>A future where every child has someone to believe in them and guide them towards their full potential.</p>
-            
-            <h2>About Us</h2>
-            <p>Coach for Change is an NPO that works with schools, coaches, and local teams to provide fatherhood mentorship. We are based in Mdantsane and aim to expand across the Eastern Cape.</p>
+            <h1>About Us</h1>
+            <p>We are a passionate team led by Mthetho and Mabuza committed to supporting youth development in Mdantsane.</p>
         </section>
+    </main>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/27697690585" class="floating-btn whatsapp">WhatsApp</a>
+        <a href="mailto:coachforc@gmail.com" class="floating-btn email">Contact Us</a>
     </div>
 
     <footer>
-        Contact us: 0697690585 | 
-        <a href="https://www.facebook.com/share/1JBVT1NLtK/" target="_blank" style="color: white;">Facebook</a> | 
-        <a href="https://www.instagram.com/coachandchange" target="_blank" style="color: white;">Instagram</a>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/yourpage" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2025 Coach for Change</p>
     </footer>
 </body>
 </html>
