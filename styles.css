@@ -1,67 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-header.hero {
-    background-color: #4CAF50;
+header {
+    background: #2e7d32;
     color: white;
-    text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
-header.hero h1 {
-    font-size: 3em;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
 }
 
-header.hero p {
-    font-size: 1.2em;
-    margin-top: 10px;
+nav h1 {
+    margin: 0;
 }
 
-header.hero .btn {
-    background-color: #333;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     color: white;
-    padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
 }
 
-section.about, section.contact {
+section {
     padding: 40px 20px;
-    text-align: center;
-}
-
-section.about h2, section.contact h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
 form {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.form-input {
-    width: 100%;
+input, textarea {
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
 footer {
+    background: #f0f0f0;
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
 }

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,29 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <h1>Coach for Change</h1>
-        <p>Empowering the future through sports and mentorship.</p>
-        <a href="#contact" class="btn">Get Involved</a>
+    <header>
+        <nav>
+            <h1>Coach for Change</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#involved">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="about">
+    <section id="about">
         <h2>About Us</h2>
-        <p>Coach for Change is dedicated to empowering youth, especially in underserved communities, by providing mentorship, coaching, and the opportunity to grow both physically and mentally.</p>
+        <p>Coach for Change is a mentorship-driven NPO committed to transforming lives through sport, leadership, and community involvement. We work with schools, coaches, and families to ensure every child has access to positive role models and structured development.</p>
     </section>
 
-    <section class="contact" id="contact">
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <ul>
+            <li>Mentorship & Life Skills Sessions</li>
+            <li>Coach Training Workshops</li>
+            <li>School Partnership Sports Programs</li>
+        </ul>
+    </section>
+
+    <section id="involved">
+        <h2>Get Involved</h2>
+        <p>We're looking for volunteer coaches, mentors, and community partners. Help us create safe, inspiring spaces for young people.</p>
+        <p>Email us or fill out the contact form below to join our movement.</p>
+    </section>
+
+    <section id="contact">
         <h2>Contact Us</h2>
         <form action="https://formspree.io/f/Qm2MLtWem" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required class="form-input" />
-            <input type="email" name="email" placeholder="Your Email" required class="form-input" />
-            <textarea name="message" placeholder="Your Message" rows="5" required class="form-input"></textarea>
-            <button type="submit" class="btn">Send Message</button>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 Coach for Change | All rights reserved</p>
+        <p>© 2025 Coach for Change | <a href="mailto:contact@coachforchange.org">Email Us</a> | 
+        <a href="https://instagram.com/coachforchange" target="_blank">Instagram</a></p>
     </footer>
 </body>
 </html>
