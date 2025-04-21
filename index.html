@@ -3,24 +3,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coach for Change</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+        header {
+            background-color: #004AAD;
+            color: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav {
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin-right: 1.5rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
-    <header class="site-header">
+    <header>
         <div class="logo">Coach for Change</div>
-        <nav class="site-nav">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Stories of Change</a>
-            <a href="#">Join Us</a>
-            <a href="#">Donate</a>
-            <a href="#">Contact</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main>
-        <p>Scroll down to see the sticky header in action.</p>
-        <div style="height: 2000px;"></div>
+        <h1>Welcome to Coach for Change</h1>
+        <p>This is the updated version with a clean blue header and readable font size.</p>
     </main>
 </body>
 </html>
