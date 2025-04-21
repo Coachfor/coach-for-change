@@ -1,8 +1,82 @@
-<h1>Contact Us</h1>
-<p>WhatsApp / Call: 069 769 0585</p>
-<p><a href="https://www.facebook.com/share/1JBVT1NLtK/">Facebook</a></p>
-<p><a href="https://www.instagram.com/coachandchange">Instagram</a></p>
-<form action="https://formspree.io/f/mayvlbpg" method="POST">
-  <input type="email" name="email" placeholder="Your email" required>
-  <button type="submit">Sign up for our newsletter</button>
-</form>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #003366;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="stories.html">Stories of Change</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="section">
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br>
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Contact us: 069 769 0585</p>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/share/1JBVT1NLtK/" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/coachandchange?igsh=YzljYTk1ODg3Zg==" target="_blank">Instagram</a> |
+            <a href="https://wa.me/27697690585" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
+</body>
+</html>
