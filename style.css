@@ -1,6 +1,40 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-header { background: #333; color: white; padding: 1rem; text-align: center; }
-nav a { color: white; margin: 0 10px; text-decoration: none; }
-main { padding: 2rem; }
-footer { background: #333; color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; width: 100%; }
-.button { background: #0056b3; color: white; padding: 10px 20px; text-decoration: none; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #0074cc;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+section.mission-vision {
+  padding: 2em;
+  background-color: white;
+  text-align: center;
+}
+.contact-buttons {
+  text-align: center;
+  padding: 2em;
+}
+.button {
+  background-color: #0074cc;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background-color: #003d66;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
